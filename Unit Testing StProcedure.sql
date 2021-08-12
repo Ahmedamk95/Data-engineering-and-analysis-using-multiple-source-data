@@ -6,7 +6,7 @@ create proc facttest
    @Product_Key  int = NULL,     
    @Shipping_Key int  = NULL,
    @Product_price	float = NULL,
-   @Product_discount_price  float = NULL,
+   @Product_discount_price float = NULL,
    @Total_discount_price float = NULL,
    @Product_profit float = NULL,
    @Total_sales float = NULL
