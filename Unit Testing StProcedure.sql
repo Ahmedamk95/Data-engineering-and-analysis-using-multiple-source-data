@@ -1,10 +1,10 @@
 /*Stored procedure used for Unit Testing on Sales_Fact table*/
 create proc facttest
 (    
-   @Order_Key                         int = NULL   ,     
-   @Customer_Key                          int  = NULL,
-   @Product_Key                         int = NULL   ,     
-   @Shipping_Key                          int  = NULL,
+   @Order_Key int = NULL,     
+   @Customer_Key int  = NULL,
+   @Product_Key  int = NULL,     
+   @Shipping_Key int  = NULL,
    @Product_price	float = NULL,
    @Product_discount_price  float = NULL,
    @Total_discount_price float = NULL,
