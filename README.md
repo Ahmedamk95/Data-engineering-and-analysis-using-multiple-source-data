@@ -20,10 +20,7 @@ The goal is to consolidate the sales data from various different sources into a 
 1. ETL scripts must be written to extract/transform the sales and reference data before loading to the target tables.
 2. ETL scripts can be written using the language of choice (e.g. python, SQL Management Studio, MS Visual Studio)
 3. Data must be landed in a database
-4. ETL must be accompanied by unit tests (preferably using the same technology as 2) that the cover the stages below:
-	a. The data extraction (eg. Expected 10 rows from the input file and received 10 rows)
-	b. The data transformation process (eg. any data cleaning expressions, correctly parsing dates, numbers etc.)
-	c. The data loading process (eg. expected output target set should have 40 rows and 40 were loaded)
+4. ETL must be accompanied by unit tests (preferably using the same technology as 2)
 5. A data entity diagram to characterize the underlying data relationships
 6. A visualization of the consolidated data using the tool of choice (Power BI) pointed at the database that showcases the following:
 	a. Ability for users to compare one company in the group to another
